@@ -2,9 +2,11 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
+      "@/styles/*": ["styles/*"],
       "@/components/*": ["components/*"],
-      "@/components": ["components/index.js"]
-
+      "@/components": ["components/index.js"],
+      "@/constants": ["@constants/index.js"],
+      "@/constants/*": ["@constants/*"],
     }
   }
 }
